@@ -1,5 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Handlee&display=swap');
+
 body{
-    background-color: beige;
+    font-family: 'Handlee', cursive;
+    font-size: 30px;
+    background-color: black;
+
+}
+
+h1, h2, h3{
+    font-family: 'Cinzel', serif;
+    background: linear-gradient(to right, red, yellow);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+#ProfessionalTitle{
+    font-size: 50px;
+    
+}
+
+#ProfilePhoto{
+    width: 30%;
+    height: 50%;
+}
+
+.NameEduardo{
+    font-size: 30px;
 }
 
 #Instagram {
