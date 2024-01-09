@@ -1,34 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Cinzel:wght@600&family=Handlee&display=swap');
 
+/* Own HTML tags */
 body{
     font-family: 'Handlee', cursive;
     font-size: 30px;
     background-color: black;
+}
 
+main, footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
 }
 
 h1, h2, h3{
     font-family: 'Cinzel', serif;
-    background: linear-gradient(to right, red, yellow);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-
+    color: white;
 }
 
+p{
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+    color: white;
+}
+
+/* Content styles */
+#ContentTitle{
+    width: 65%;
+    height: 65%;
+    padding: 25px;
+}
+
+#ContentProfilePhoto{
+    width: 35%;
+    height: 35%;
+    padding: 25px;
+}
+
+#ContentFooter{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#ContentSocialNet{
+    display: flex;
+    justify-content: space-around;
+}
+
+.BtSocialNet{
+    height: 80%;
+    margin: 0px 20px 0px 20px;
+}
+
+/* Image styles */
 #ProfessionalTitle{
-    font-size: 50px;
-    
+    font-size: 100px;
+    text-align: center;
 }
 
 #ProfilePhoto{
-    width: 30%;
-    height: 50%;
-}
-
-.NameEduardo{
-    font-size: 30px;
-}
-
-#Instagram {
-    background-color: aqua;
+    width: 100%;
+    height: 100%;
 }
